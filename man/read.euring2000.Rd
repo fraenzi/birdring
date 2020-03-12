@@ -7,7 +7,7 @@ Reads EURING data  into R
 Reads EURING data (format EURING exchange code 2000) into R and creates a data.frame
 }
 \usage{
-read.euring2000(filename)
+read.euring2000(filename, quote="", ...)
 }
 \arguments{
   \item{filename}{
