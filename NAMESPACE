@@ -1,5 +1,6 @@
 export(
-	birdstate
+  add.geometry
+	     ,birdstate
        ,bootci.dc
        ,codes2names
        ,critical.check.ringing.event
@@ -12,7 +13,6 @@ export(
        ,loxodrom.dir
        ,loxodrom.dist
        ,mdy.date
- #     ,mercatorbreite
        ,mercatorlat
        ,orthodrom.dist
        ,overlap
