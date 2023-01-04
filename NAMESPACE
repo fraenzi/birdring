@@ -44,5 +44,8 @@ import(rworldmap)
 import(rworldxtra)
 import(sp)
 import(ks)
+import(basemaps)
+import(maps)
+import(sfheaders)
 #import(reshape)
 

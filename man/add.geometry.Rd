@@ -17,19 +17,15 @@ a dataframe in Euring format, typically read in by{\code{\link{read.euring2000}}
   \item{na.rm}{
 logical, should NA's be removed? 
 }
+}
 \details{
-Creates an object which can be used as the basis for {\code{\link(draw.recmap)}}
+Creates an object which can be used as the basis for {\code{\link{draw.recmap}}}
 }
 \value{
 The dataframe is returned with an added 'geometry' column, which contains a LINESTRING (duplicated within each individual)
 }
-
 \author{
 Rob Robinson
-}
-
-\examples{
-
 }
 \keyword{ manip }
 \keyword{ spatial }
