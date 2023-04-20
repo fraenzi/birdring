@@ -6,7 +6,7 @@ Date: 2022-12-21
 Author: Fraenzi Korner-Nievergelt, Rob Robinson
 Maintainer: Fraenzi Korner-Nievergelt <fraenzi.korner@vogelwarte.ch>
 Depends: R (>= 2.10.1), stats, basemaps, maps, sfheaders
-Imports: geosphere, ks, lazyData, raster, rworldmap, rworldxtra, sp, methods, graphics
+Imports: geosphere, ks, lazyData, raster, rworldmap, rworldxtra, sf, methods, graphics
 Description: R functions to read EURING data and analyse re-encounter data of birds marked by metal rings. For a tutorial, go to http://www.tandfonline.com/doi/full/10.1080/03078698.2014.933053.
 License: GPL-2
 LazyLoad: yes
