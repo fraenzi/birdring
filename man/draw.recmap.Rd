@@ -19,7 +19,7 @@ draw.recmap(df, type='outline', theme=NULL, subset=NULL, margin=1,
 a dataframe in Euring format, typically read in by {\code{\link{read.euring2000}}}.
 }
   \item{type}{
-a character string, either 'outline' for a simple outline map (using the maps package), or a raster map service using the basemaps package (see {\code{\link{basemaps::get_maptypes}}} for a list of the available services).
+a character string, either 'outline' for a simple outline map (using the maps package), or a raster map service using the basemaps package for a list of the available services).
 }
   \item{theme}{
 if type is a basemap service, a character string indicating which theme to use.
