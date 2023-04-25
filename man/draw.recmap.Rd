@@ -8,10 +8,11 @@ Plot recoveries on a map
 Draw either an outline map or basemap and add recovery locations, possibly sequentially - see details.
 }
 \usage{
-draw.recmap(df, type='outline', theme=NULL, subset=NULL, margin=1, 
-         lwd=1, line.col="gray", pch=19, cex=1, pch.col="black",
-         fill=TRUE, fill.col="white", border.col="black", bg="lightgray",
-         mar=rep(0.1,4), ...)
+draw.recmap(df, type = "outline", theme = NULL, subset = NULL,
+                    margin = 1, lwd = 1, line.col = "gray", pch = 19, cex
+                    = 1, pch.col = "black", fill = TRUE, fill.col =
+                    "white", border.col = "black", bg = "lightgray", mar =
+                    rep(0.1, 4), ...)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -19,7 +20,7 @@ draw.recmap(df, type='outline', theme=NULL, subset=NULL, margin=1,
 a dataframe in Euring format, typically read in by {\code{\link{read.euring2000}}}.
 }
   \item{type}{
-a character string, either 'outline' for a simple outline map (using the maps package), or a raster map service using the basemaps package for a list of the available services).
+a character string, either 'outline' for a simple outline map (using the maps package), or a raster map service using the basemaps package for a list of the available services.
 }
   \item{theme}{
 if type is a basemap service, a character string indicating which theme to use.
@@ -61,7 +62,7 @@ the background colour (i.e. for the sea), currently overflows the plot region.
 plot margins, see {\code{?par('mar')}}, an attempt to reduce the white space border.
 }
   \item{...}{
-further arguments passed to either {\code{\link{maps::map}}} or {\code{\link{basemaps::basemap}}}
+further arguments passed to either {\code{maps::map}} or {\code{basemaps::basemap}}
 }
 }
 \details{
@@ -79,7 +80,7 @@ The default projection for 'outline' has "the aspect ratio chosen so that longit
 If the margins don't seem to work first time, running the command again often seems to help.
 }
 \seealso{
-\code{\link{maps::map}}, \code{\link{basemaps::basemap}}, 
+\code{maps::map}, \code{basemaps::basemap}, 
 }
 \examples{
 # showing how to build up layers of map
