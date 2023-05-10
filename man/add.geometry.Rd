@@ -5,7 +5,8 @@
 Convert a data.frame into an sf LINESTRING object 
 }
 \description{
-Adds a 'geometry' column connecting the locations for each individual}
+Adds a 'geometry' column connecting the locations for each individual
+}
 \usage{
 add.geometry(df, na.rm=TRUE)
 }
