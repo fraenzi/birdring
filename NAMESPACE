@@ -1,6 +1,6 @@
 export(
-  add.geometry
-	     ,birdstate
+  #add.geometry
+	     birdstate
        ,bootci.dc
        ,codes2names
        ,critical.check.ringing.event
@@ -9,7 +9,7 @@ export(
        ,decimal.coord
        ,dmvnorm
        ,draw.map
-       ,draw.recmap
+ #      ,draw.recmap
        ,loxodrom.dir
        ,loxodrom.dist
        ,mdy.date
